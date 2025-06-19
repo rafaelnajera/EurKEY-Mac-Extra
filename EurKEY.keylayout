@@ -1567,7 +1567,7 @@
 		</action>
 		<action id="q">
 			<when state="none" output="q"/>
-                        <when state="dead: ´" output="ą"/><when state="dead: ´" output="ą"/>
+                        <when state="dead: ´" output="ą"/>
 			<when state="dead: Ω" output="ω"/>
 		</action>
 		<action id="r">
