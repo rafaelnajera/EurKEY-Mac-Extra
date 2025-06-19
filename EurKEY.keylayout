@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-16 at 16:36 (GMT+1)-->
+<!--Last edited by Ukelele version 432 on 2025-06-19 at 11:08 (CEST)-->
 <keyboard group="126" id="-14519" name="EurKEY v1.2" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -1081,6 +1081,7 @@
 		</action>
 		<action id=".">
 			<when state="none" output="."/>
+                        <when state="dead: ´" output="·"/>
 			<when state="dead: √" output="⋅"/>
 		</action>
 		<action id="0">
@@ -1109,7 +1110,9 @@
 		</action>
 		<action id="4">
 			<when state="none" output="4"/>
-			<when state="dead: ©" output="⅓"/>
+                        <when state="dead: ¨" output="₩"/>
+                        <when state="dead: ´" output="₡"/>
+  			<when state="dead: ©" output="⅓"/>
 			<when state="dead: Ω" output="⁴"/>
 			<when state="dead: √" output="∜"/>
 		</action>
@@ -1118,6 +1121,8 @@
 			<when state="dead: ©" output="⅔"/>
 			<when state="dead: ¯" output="¯"/>
 			<when state="dead: ´" output="´"/>
+                        <when state="dead: `" output="₽"/>
+                        <when state="dead: ¨" output="₹"/>
 			<when state="dead: ˇ" output="ˇ"/>
 			<when state="dead: ˚" output="˚"/>
 			<when state="dead: Ω" output="⁵"/>
@@ -1204,6 +1209,7 @@
 		<action id="D">
 			<when state="none" output="D"/>
 			<when state="dead: ¯" output="Đ"/>
+                        <when state="dead: ´" output="Ę"/>
 			<when state="dead: ˇ" output="Ď"/>
 			<when state="dead: Ω" output="Δ"/>
 			<when state="dead: √" output="∇"/>
@@ -1318,6 +1324,7 @@
 		</action>
 		<action id="Q">
 			<when state="none" output="Q"/>
+                        <when state="dead: ´" output="Ą"/>
 			<when state="dead: Ω" output="Ω"/>
 			<when state="dead: √" output="ℚ"/>
 		</action>
@@ -1444,6 +1451,7 @@
 		<action id="d">
 			<when state="none" output="d"/>
 			<when state="dead: ¯" output="đ"/>
+                        <when state="dead: ´" output="ę"/>
 			<when state="dead: ˇ" output="ď"/>
 			<when state="dead: Ω" output="δ"/>
 			<when state="dead: √" output="Δ"/>
@@ -1532,6 +1540,7 @@
 			<when state="none" output="n"/>
 			<when state="dead: ~" output="ñ"/>
 			<when state="dead: ©" output="↙"/>
+
 			<when state="dead: ´" output="ń"/>
 			<when state="dead: ˇ" output="ň"/>
 			<when state="dead: Ω" output="ν"/>
@@ -1558,6 +1567,7 @@
 		</action>
 		<action id="q">
 			<when state="none" output="q"/>
+                        <when state="dead: ´" output="ą"/><when state="dead: ´" output="ą"/>
 			<when state="dead: Ω" output="ω"/>
 		</action>
 		<action id="r">

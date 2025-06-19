@@ -7,6 +7,12 @@ This is a port of the [EurKEY Keyboard layout](http://eurkey.steffen.bruentjen.e
 
 **Status**: The whole layout should be mapped now. Please report if you find any missing characters.
 
+**Additions**: 
+
+ - Added ą and ę for Polish: ´q = ą, ´d = ę (and uppercase)
+ - Added the "punt volat" for Catalan:  ´. = · 
+ - Added additional currency signs: ´4 = ₡ (Costa Rican colón), ¨4 = ₩ (Korean won), `5 = ₽ (Russian rubble), ¨5 = ₹ (Indian rupee)
+
 
 Install
 =======
